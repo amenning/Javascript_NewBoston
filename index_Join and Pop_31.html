@@ -1,0 +1,31 @@
+<!DOCTYPE html public "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+
+<script type="text/javascript">
+
+</script>	
+
+</head>
+<body>
+
+<script type="text/javascript">
+	var movies = new Array("Avatar", "Good Will Hunting", "Vanilla Sky", "Fight Club");
+	
+	var string1 = movies.join();
+	
+	document.write(string1);
+	
+	var string2 = movies.join(" - ");
+	
+	document.write("<br /> " + string2);
+	
+	document.write("<br /><br />" + movies[3] + "<br />");
+	movies.pop();
+	document.write(movies[3]);
+	
+</script>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html public "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+
+<script type="text/javascript">
+
+</script>	
+
+</head>
+<body>
+
+<form name="buckysForm">
+	Username: <input type="text" name="usersname"/>
+	Password: <input type="password" name="password"/>
+	<input type="submit" value="Submit!" />
+	
+</form>
+
+<script type="text/javascript">	
+	var x = document.forms[0].elements[0].name;
+	document.write(x);
+	var y = document.buckysForm.elements[0].name;
+	document.write("<br />" + y);
+</script>
+</body>
+</html>
